@@ -1,0 +1,27 @@
+{
+  "name": "nextjs-shopify-chakra",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "webpack-build": "webpack --mode development --watch"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.4",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@react-three/drei": "^9.58.5",
+    "@react-three/fiber": "^8.12.0",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "framer-motion": "^10.9.2",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "shopify-buy": "^2.18.0",
+    "three": "^0.150.1"
+  }
+}
